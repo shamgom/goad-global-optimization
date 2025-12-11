@@ -2,7 +2,7 @@
 
 Welcome to GOAD v1 (Global Optimization with Adsorbed species using ASE Design), a comprehensive Python application for optimizing molecular adsorption configurations on crystal surfaces using genetic algorithms.
 
-## 📚 Documentation Guide
+## Documentation Guide
 
 Start here based on your needs:
 
@@ -29,7 +29,7 @@ Start here based on your needs:
    - Bug fixes summary
    - Integration tests
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 ## Install dependencies
@@ -39,34 +39,34 @@ pip install ase rdkit matplotlib numpy mattersim
 python3 run_goad_v1.py
 ```
 
-## ✨ Key Features
+## Key Features
 
-### 🔬 Structure Analysis & Visualization
+### Structure Analysis & Visualization
 - Automatic surface type detection (slab vs porous)
 - Atomic layer identification and visualization
 - 3D visualization with bonds
 - Elemental composition analysis
 
-### ⚙️ Reference Energy Calculation
+### Reference Energy Calculation
 - Multiple calculator options (MatterSim 1M/5M/5M+D3)
 - Relaxation mode (0-1000 BFGS steps)
 - Single-point energy calculation
 - Configurable fixed layers
 
-### 🧬 Genetic Algorithm
+### Genetic Algorithm
 - **Dual-genome**: 6 positioning genes + N torsion genes
 - Automatic rotatable bond detection
 - Population-based optimization
 - Real-time energy evolution tracking
 - Configurable parameters (generations, population, mutation rates)
 
-### 💾 Final Optimization & Export
+### Final Optimization & Export
 - Optional full structure relaxation
 - Multiple output formats (CIF, trajectory, text)
 - Timestamped results directory
 - Comprehensive logs
 
-## 📋 Workflow
+## Workflow
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -100,7 +100,7 @@ python3 run_goad_v1.py
 └─────────────────────────────────────────────┘
 ```
 
-## 📊 Project Statistics
+## Project Statistics
 
 - **Total Code**: ~3,048 lines of Python
 - **Modules**: 16 Python modules
@@ -108,7 +108,7 @@ python3 run_goad_v1.py
 - **Functions**: 50+ functions
 - **Documentation**: 37 KB of guides
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -120,7 +120,7 @@ python3 run_goad_v1.py
 | 3D Visualization | Matplotlib |
 | Numerical Computing | NumPy |
 
-## 📁 File Structure
+## File Structure
 
 ```
 goad_v1/
@@ -147,7 +147,7 @@ goad_v1/
         └── torsion_handler.py        # Rotatable bonds
 ```
 
-## 🎯 Recommended Next Steps
+## Recommended Next Steps
 
 ### 1. Installation
 ```bash
@@ -165,7 +165,7 @@ Load example structures (Cu111 slab + small molecule) and run through complete w
 ### 4. Production Use
 Apply to your own structures and systems
 
-## ❓ FAQ
+## FAQ
 
 **Q: How do I know if my surface is supported?**
 A: Slab surfaces (multi-layer crystals) are fully supported. Porous surfaces (MOFs) are detected but optimization is limited.
@@ -182,7 +182,7 @@ A: Currently only MatterSim. Future versions will support DFTB+, CP2K, etc.
 **Q: What does negative adsorption energy mean?**
 A: Favorable adsorption (molecule likes the surface). Positive = unfavorable.
 
-## 🐛 Issues & Support
+## Issues & Support
 
 If you encounter issues:
 
@@ -192,7 +192,7 @@ If you encounter issues:
 4. Ensure all dependencies are installed
 5. Try with MatterSim 1M if other calculators fail
 
-## 📝 Citation
+## Citation
 
 If you use GOAD v1 in your research, please cite:
 
@@ -204,11 +204,11 @@ If you use GOAD v1 in your research, please cite:
 }
 ```
 
-## 📄 License
+## License
 
 [Specify your license here]
 
-## 👨‍💻 Development
+## Development
 
 ### Code Quality
 - All Python syntax validated (py_compile verified)
@@ -228,7 +228,7 @@ If you use GOAD v1 in your research, please cite:
 - Inline docstrings for classes and functions
 - Clear architecture documentation
 
-## 🎓 Learning Resources
+## Learning Resources
 
 - [ASE Documentation](https://wiki.fysik.dtu.dk/ase/)
 - [RDKit Documentation](https://www.rdkit.org/docs/)
