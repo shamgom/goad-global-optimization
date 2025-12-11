@@ -194,13 +194,26 @@ If you encounter issues:
 
 ## Citation
 
-If you use GOAD v1 in your research, please cite:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17904742.svg)](https://doi.org/10.5281/zenodo.17904742)
 
+If you use GOAD in your research, please cite:
+
+**APA Format**:
+```
+Gomez, S. H. (2025). GOAD: Global Optimization with Adsorbed species using ASE Design (v1.0.2). 
+Zenodo. https://doi.org/10.5281/zenodo.17904742
+```
+
+**BibTeX**:
 ```bibtex
-@software{goad_v1,
-   title={GOAD v1: Genetic Optimization for Adsorbed Structures},
-  year={2025},
-  url={https://github.com/...}
+@software{goad_2025,
+  author       = {Gomez, Said Hamad},
+  title        = {{GOAD: Global Optimization with Adsorbed species using ASE Design}},
+  year         = 2025,
+  version      = {v1.0.2},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17904742},
+  url          = {https://doi.org/10.5281/zenodo.17904742}
 }
 ```
 
