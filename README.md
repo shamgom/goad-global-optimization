@@ -200,20 +200,25 @@ If you use GOAD in your research, please cite:
 
 **APA Format**:
 ```
-Gomez, S. H. (2025). GOAD: Global Optimization with Adsorbed species using ASE Design (v1.0.2). 
+Urbiztondo, M. A., Castro-Palacio, J. C., Grau-Crespo, R., & Hamad, S. (2025). 
+GOAD: Global Optimization with Adsorbed species using ASE Design (v1.0.2). 
 Zenodo. https://doi.org/10.5281/zenodo.17904742
 ```
 
 **BibTeX**:
 ```bibtex
 @software{goad_2025,
-  author       = {Gomez, Said Hamad},
+  author       = {Urbiztondo, Miguel A. and 
+                  Castro-Palacio, Juan Carlos and 
+                  Grau-Crespo, Ricardo and 
+                  Hamad, Said},
   title        = {{GOAD: Global Optimization with Adsorbed species using ASE Design}},
   year         = 2025,
   version      = {v1.0.2},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.17904742},
-  url          = {https://doi.org/10.5281/zenodo.17904742}
+  url          = {https://doi.org/10.5281/zenodo.17904742},
+  note         = {GitHub repository: \url{https://github.com/shamgom/goad-global-optimization}}
 }
 ```
 
