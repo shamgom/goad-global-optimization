@@ -1,6 +1,6 @@
-# GOAD v1.0 - Complete Implementation
+# GOAD v5.0 - Complete Implementation
 
-Welcome to GOAD v1.0 (Global Optimization with Adsorbed species using ASE Design), a comprehensive Python application for optimizing molecular adsorption configurations on crystal surfaces using genetic algorithms.
+Welcome to GOAD v5.0 (Global Optimization with Adsorbed species using ASE Design), a comprehensive Python application for optimizing molecular adsorption configurations on crystal surfaces using genetic algorithms.
 
 ## 📚 Documentation Guide
 
@@ -36,7 +36,7 @@ Start here based on your needs:
 pip install ase rdkit matplotlib numpy mattersim
 
 # Run application
-python3 run_goad_v1.py
+python3 run_goad_v5.py
 ```
 
 ## ✨ Key Features
@@ -123,14 +123,14 @@ python3 run_goad_v1.py
 ## 📁 File Structure
 
 ```
-goad_v1.0/
-├── run_goad_v1.py                    # Main launcher
+goad_v5.0/
+├── run_goad_v5.py                    # Main launcher
 ├── README.md                         # This file
 ├── QUICK_START.md                    # User guide
 ├── IMPLEMENTATION_STATUS.md          # Technical reference
 ├── PROJECT_SUMMARY.md                # Architecture overview
 ├── VERIFICATION_CHECKLIST.md         # Testing verification
-└── goad_v1/
+└── goad_v5/
     ├── analysis/
     │   ├── surface_analyzer.py       # Surface analysis
     │   └── molecule_analyzer.py      # Molecular properties
@@ -156,7 +156,7 @@ pip install ase rdkit matplotlib numpy mattersim
 
 ### 2. First Run
 ```bash
-python3 run_goad_v1.py
+python3 run_goad_v5.py
 ```
 
 ### 3. Test Workflow
@@ -194,11 +194,11 @@ If you encounter issues:
 
 ## 📝 Citation
 
-If you use GOAD v1.0 in your research, please cite:
+If you use GOAD v5.0 in your research, please cite:
 
 ```bibtex
-@software{goad_v1,
-  title={GOAD v1.0: Genetic Optimization for Adsorbed Structures},
+@software{goad_v5,
+  title={GOAD v5.0: Genetic Optimization for Adsorbed Structures},
   year={2025},
   url={https://github.com/...}
 }
