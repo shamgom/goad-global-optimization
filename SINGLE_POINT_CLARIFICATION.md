@@ -12,9 +12,9 @@ Some calculators (including certain versions of MatterSim) may perform **interna
 2. They adjust atomic positions to be "reasonable" before energy calculation
 3. They apply internal convergence criteria before returning the energy
 
-This is **not a bug in GOAD v5.0**, but rather a behavior of the underlying force field calculator.
+This is **not a bug in GOAD v1**, but rather a behavior of the underlying force field calculator.
 
-## How GOAD v5.0 Handles This (UPDATED)
+## How GOAD v1 Handles This (UPDATED)
 
 We've added **displacement detection** in the single-point calculation mode:
 
@@ -130,12 +130,12 @@ This reminds you to check the log for actual displacements.
 
 ## Files Modified
 
-- `goad_v5/gui/reference_energies_window.py`
+* `goad_v1/gui/reference_energies_window.py`
   - Added displacement detection in `_calculate_single_point()`
   - Added warning label in GUI
   - Log now shows actual atomic displacements
 
-- `goad_v5/utils/calculator_manager.py`
+* `goad_v1/utils/calculator_manager.py`
   - Added note about MatterSim behavior
 
 ## Verification

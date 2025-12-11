@@ -1,3 +1,4 @@
+````markdown
 # GOAD v1 - Global Optimization with ASE Design
 
 Advanced molecular adsorption optimization with intelligent layer control and multi-stage workflow.
@@ -198,69 +199,4 @@ Where:
    → E_ads improved to: -0.52 eV
    → 2 layers still fixed
    → Surface structure preserved
-
-7. Results saved to: GOAD_v1_results_20250128_143022/
-   └─ final_optimized_structure.cif
-   └─ summary.txt
-```
-
-## Output Files
-
-### Results Directory
-```
-GOAD_v1_results_YYYYMMDD_HHMMSS/
-├── final_optimized_structure.cif    # Best structure
-└── summary.txt                       # Energy summary
-```
-
-### Intermediate Files (within windows)
-- Surface/molecule analysis data
-- Reference energy calculations
-- GA fitness history
-- Energy plots
-
-## Troubleshooting
-
-### "Could not load surface file"
-- Check file is valid CIF format
-- Ensure it's a proper ASE-readable structure
-
-### "Surface is POROUS"
-- This surface type is under development
-- Currently only SLAB structures supported
-- Contact developers for MOF/Zeolite support
-
-### GA runs very slowly
-- Reduce generations (start with 30)
-- Reduce population size (try 20)
-- Check calculator (EMT is faster for testing than MatterSim)
-
-### Final optimization diverges
-- Increase relaxation criterion (fmax)
-- Check that structures have no overlaps
-- Verify fixed layer configuration
-
-## Citation
-
-If you use GOAD v1 in your research, please cite:
-
-```bibtex
-@software{goad2025,
-   title={GOAD v1: Global Optimization with ASE Design},
-  author={Your Name},
-  year={2025},
-  version={5.0.0}
-}
-```
-
-## License
-
-For academic and research use.
-
-## Contact & Support
-
-For issues, questions, or feature requests, consult the documentation or contact the development team.
-
----
-
-**Happy optimizing with GOAD v1!** 🚀
+````

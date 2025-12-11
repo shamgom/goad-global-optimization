@@ -1,7 +1,8 @@
+````markdown
 # GOAD v1.0.1 - Release Notes
 
 **Release Date**: 2025-11-28
-**Previous Version**: 5.0 (Initial Release)
+**Previous Version**: 1.0 (Initial Release)
 **Status**: Production Ready
 
 ## Summary
@@ -219,3 +220,5 @@ Thanks for reporting the single-point behavior issue. This feedback helps improv
 **License**: [Specify as needed]
 
 For more information, see README.md or IMPLEMENTATION_STATUS.md
+
+````
