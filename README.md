@@ -1,4 +1,4 @@
-# GOAD v5.0 - Complete Implementation
+# GOAD (Global Optimization with Adsorbed species using ASE Design)
 
 Welcome to GOAD v5.0 (Global Optimization with Adsorbed species using ASE Design), a comprehensive Python application for optimizing molecular adsorption configurations on crystal surfaces using genetic algorithms.
 
