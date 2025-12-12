@@ -151,9 +151,5 @@ pip install mattersim
 - Use MatterSim 1M instead of 5M/5M+D3
 - Simplify molecule structure if possible
 
-## For More Information
-
-See `IMPLEMENTATION_STATUS.md` for detailed technical documentation.
-
 ---
 GOAD v1.0 - Genetic Optimization for Adsorbed structures using ASE Design

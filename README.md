@@ -2,32 +2,12 @@
 
 Welcome to GOAD v1 (Global Optimization with Adsorbed species using ASE Design), a comprehensive Python application for optimizing molecular adsorption configurations on crystal surfaces using genetic algorithms.
 
-## Documentation Guide
+## Quick Start
 
-Start here based on your needs:
-
-1. **First time?** → [`QUICK_START.md`](QUICK_START.md)
-   - Installation instructions
-   - Step-by-step workflow walkthrough
-   - Troubleshooting tips
-
-2. **Want technical details?** → [`IMPLEMENTATION_STATUS.md`](IMPLEMENTATION_STATUS.md)
-   - Complete component breakdown
-   - All modules and features
-   - Known limitations
-   - Dependencies
-
-3. **Interested in architecture?** → [`PROJECT_SUMMARY.md`](PROJECT_SUMMARY.md)
-   - Project overview and achievements
-   - Code statistics and file structure
-   - Technical architecture
-   - Feature matrix
-
-4. **Ready to verify?** → [`VERIFICATION_CHECKLIST.md`](VERIFICATION_CHECKLIST.md)
-   - Pre-launch verification
-   - Feature verification
-   - Bug fixes summary
-   - Integration tests
+**New to GOAD?** Check out [`QUICK_START.md`](QUICK_START.md) for:
+- Installation instructions
+- Step-by-step workflow walkthrough
+- Troubleshooting tips
 
 ## Quick Start
 
@@ -127,9 +107,8 @@ goad_v1/
 ├── run_goad_v1.py                    # Main launcher
 ├── README.md                         # This file
 ├── QUICK_START.md                    # User guide
-├── IMPLEMENTATION_STATUS.md          # Technical reference
-├── PROJECT_SUMMARY.md                # Architecture overview
-├── VERIFICATION_CHECKLIST.md         # Testing verification
+├── LICENSE                           # MIT License
+├── CITATION.cff                      # Citation metadata
 └── goad_v1/
     ├── analysis/
     │   ├── surface_analyzer.py       # Surface analysis

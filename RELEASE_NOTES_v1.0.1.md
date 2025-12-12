@@ -217,8 +217,8 @@ Thanks for reporting the single-point behavior issue. This feedback helps improv
 **Status**: ✅ Production Ready
 **Release Date**: 2025-11-28
 **Compatibility**: Python 3.8+, ASE, RDKit, MatterSim
-**License**: [Specify as needed]
+**License**: MIT
 
-For more information, see README.md or IMPLEMENTATION_STATUS.md
+For more information, see README.md or QUICK_START.md
 
 ````
