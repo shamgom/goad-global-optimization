@@ -1,4 +1,4 @@
-# GOAD v5.0 - Quick Start Guide
+# GOAD v1.0 - Quick Start Guide
 
 ## Installation
 
@@ -10,18 +10,18 @@ pip install ase rdkit matplotlib numpy
 ```
 
 ### MatterSim Installation
-GOAD v5.0 uses MatterSim force field calculator. Install it with:
+GOAD v1.0 uses MatterSim force field calculator. Install it with:
 
 ```bash
 pip install mattersim
 ```
 
-## Running GOAD v5.0
+## Running GOAD v1.0
 
-From the GOAD v5.0 directory:
+From the GOAD v1.0 directory:
 
 ```bash
-python3 run_goad_v5.py
+python3 run_goad_v1.py
 ```
 
 This will launch the main workflow interface.
@@ -156,4 +156,4 @@ pip install mattersim
 See `IMPLEMENTATION_STATUS.md` for detailed technical documentation.
 
 ---
-GOAD v5.0 - Genetic Optimization for Adsorbed structures using ASE Design
+GOAD v1.0 - Genetic Optimization for Adsorbed structures using ASE Design

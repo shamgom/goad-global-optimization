@@ -1,4 +1,4 @@
-# GOAD v5.0 - Verification Checklist
+# GOAD v1.0 - Verification Checklist
 
 ## Pre-Launch Verification
 
@@ -6,7 +6,7 @@
 - [x] All Python files have valid syntax (py_compile verified)
 - [x] No import errors or circular dependencies
 - [x] All required modules present (analysis, ga, gui, utils)
-- [x] Main launcher (run_goad_v5.py) present and ready
+- [x] Main launcher (run_goad_v1.py) present and ready
 
 ### ✅ Core Functionality
 
@@ -248,7 +248,7 @@ Expected: Torsion genes present in results; dihedral angles displayed
 
 ### Module Dependencies
 ```
-✅ run_goad_v5.py
+✅ run_goad_v1.py
     ├─ imports AnalysisWindow
     ├─ imports ReferenceEnergiesWindow
     ├─ imports GAWindow
@@ -290,7 +290,7 @@ All dependencies verified; no circular imports detected.
 
 **Status**: ✅ **VERIFIED AND READY**
 
-GOAD v5.0 has been thoroughly verified and is ready for:
+GOAD v1.0 has been thoroughly verified and is ready for:
 - ✅ Production use
 - ✅ End-to-end testing with real structures
 - ✅ User deployment

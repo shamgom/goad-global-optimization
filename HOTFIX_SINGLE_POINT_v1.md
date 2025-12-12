@@ -117,7 +117,7 @@ This is a reasonable threshold because:
 
 ## Behavior Clarification
 
-### GOAD v5.0 Code Level
+### GOAD v1.0 Code Level
 ✅ **Correctly implemented**
 - `_calculate_single_point()` calls `get_potential_energy()` (single-point)
 - `_calculate_with_relaxation()` calls BFGS optimizer (explicit relaxation)
@@ -150,11 +150,11 @@ This is a reasonable threshold because:
 ## Files Modified
 
 ```
-goad_v5/gui/reference_energies_window.py
+goad_v1/gui/reference_energies_window.py
   - Lines 159-165: Added warning label
   - Lines 323-361: Modified _calculate_single_point() with displacement detection
   
-goad_v5/utils/calculator_manager.py
+goad_v1/utils/calculator_manager.py
   - Lines 29-30: Added documentation note
 ```
 
@@ -175,7 +175,7 @@ goad_v5/utils/calculator_manager.py
 
 ## Version History
 
-- **v5.0.1** (2025-11-28): Added single-point displacement detection
+- **v1.0.1** (2025-11-28): Added single-point displacement detection
 
 ---
 

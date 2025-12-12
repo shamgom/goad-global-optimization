@@ -1,13 +1,13 @@
-# GOAD v5.0 - Implementation Status Report
+# GOAD v1.0 - Implementation Status Report
 
 ## Overview
-GOAD v5.0 is a complete 4-window workflow for genetic algorithm-based molecular adsorption optimization on surfaces. All major features have been successfully implemented and tested.
+GOAD v1.0 is a complete 4-window workflow for genetic algorithm-based molecular adsorption optimization on surfaces. All major features have been successfully implemented and tested.
 
 ## Completed Components
 
 ### 1. Core Analysis Modules
 
-#### Surface Analyzer (`goad_v5/analysis/surface_analyzer.py`)
+#### Surface Analyzer (`goad_v1/analysis/surface_analyzer.py`)
 - **Status**: ✅ Complete
 - **Features**:
   - Automatic surface type detection (Slab vs Porous)
@@ -15,7 +15,7 @@ GOAD v5.0 is a complete 4-window workflow for genetic algorithm-based molecular 
   - Layer information: positions, atom indices per layer
   - Fixed bug: Rewrote `_analyze_layers()` to use simple Python iteration instead of np.where()
 
-#### Molecule Analyzer (`goad_v5/analysis/molecule_analyzer.py`)
+#### Molecule Analyzer (`goad_v1/analysis/molecule_analyzer.py`)
 - **Status**: ✅ Complete
 - **Features**:
   - Molecular formula generation
@@ -28,7 +28,7 @@ GOAD v5.0 is a complete 4-window workflow for genetic algorithm-based molecular 
 
 ### 2. Utility Modules
 
-#### Calculator Manager (`goad_v5/utils/calculator_manager.py`)
+#### Calculator Manager (`goad_v1/utils/calculator_manager.py`)
 - **Status**: ✅ Complete
 - **Features**:
   - MatterSim 1M calculator (fastest, default)
@@ -37,7 +37,7 @@ GOAD v5.0 is a complete 4-window workflow for genetic algorithm-based molecular 
   - Automatic fallback to 1M if higher models unavailable
   - Calculator metadata (speed, accuracy, dispersion info)
 
-#### Torsion Handler (`goad_v5/utils/torsion_handler.py`)
+#### Torsion Handler (`goad_v1/utils/torsion_handler.py`)
 - **Status**: ✅ Complete
 - **Features**:
   - RDKit-based rotatable bond detection
@@ -45,7 +45,7 @@ GOAD v5.0 is a complete 4-window workflow for genetic algorithm-based molecular 
   - Rodrigues' rotation formula for smooth dihedral angle manipulation
   - Integration with genetic algorithm genome
 
-### 3. Genetic Algorithm (`goad_v5/ga/genetic_algorithm.py`)
+### 3. Genetic Algorithm (`goad_v1/ga/genetic_algorithm.py`)
 
 - **Status**: ✅ Complete
 - **Genome Structure**: `[x, y, z, α, β, γ, φ₁, φ₂, ..., φₙ]`
@@ -65,7 +65,7 @@ GOAD v5.0 is a complete 4-window workflow for genetic algorithm-based molecular 
 
 ### 4. GUI Windows
 
-#### Window 1: Structure Analysis (`goad_v5/gui/analysis_window.py`)
+#### Window 1: Structure Analysis (`goad_v1/gui/analysis_window.py`)
 - **Status**: ✅ Complete
 - **Tabs**:
   - 🔬 Structures: 3D visualization of surface + molecule
@@ -78,7 +78,7 @@ GOAD v5.0 is a complete 4-window workflow for genetic algorithm-based molecular 
   - Structure viewer with bond detection and visualization
 - **Fixed bug**: Added logging at each step; fixed tkinter pack() width parameter
 
-#### Window 2: Reference Energy Calculation (`goad_v5/gui/reference_energies_window.py`)
+#### Window 2: Reference Energy Calculation (`goad_v1/gui/reference_energies_window.py`)
 - **Status**: ✅ Complete
 - **Features**:
   - Calculator selection (MatterSim 1M/5M/5M+D3) with radio buttons
@@ -89,7 +89,7 @@ GOAD v5.0 is a complete 4-window workflow for genetic algorithm-based molecular 
   - Results display: E_surface, E_molecule, E_total, and adsorption formula
 - **Callback Data**: surface_relaxed, molecule_relaxed, energies, n_fixed_layers, calculator
 
-#### Window 3: Genetic Algorithm (`goad_v5/gui/ga_window.py`)
+#### Window 3: Genetic Algorithm (`goad_v1/gui/ga_window.py`)
 - **Status**: ✅ Complete
 - **Tabs**:
   - 📊 Energy Evolution: Real-time plot of fitness history
@@ -105,7 +105,7 @@ GOAD v5.0 is a complete 4-window workflow for genetic algorithm-based molecular 
 - **Threading**: GA runs in separate thread to prevent UI freezing
 - **Callback Data**: best_structure, best_energy, n_fixed_layers, calculator
 
-#### Window 4: Final Optimization (`goad_v5/gui/final_optimization_window.py`)
+#### Window 4: Final Optimization (`goad_v1/gui/final_optimization_window.py`)
 - **Status**: ✅ Complete
 - **Features**:
   - Optional final relaxation with BFGS
@@ -113,7 +113,7 @@ GOAD v5.0 is a complete 4-window workflow for genetic algorithm-based molecular 
   - Timestamped results directory
   - Structure export to multiple formats
 
-### 5. Structure Visualization (`goad_v5/gui/structure_viewer.py`)
+### 5. Structure Visualization (`goad_v1/gui/structure_viewer.py`)
 - **Status**: ✅ Complete
 - **Features**:
   - Matplotlib 3D viewer embedded in tkinter
@@ -123,7 +123,7 @@ GOAD v5.0 is a complete 4-window workflow for genetic algorithm-based molecular 
   - Rotatable 3D view (azimuth/elevation controls)
 - **Fixed bug**: Converted numpy array elements to int before indexing
 
-### 6. Main Launcher (`run_goad_v5.py`)
+### 6. Main Launcher (`run_goad_v1.py`)
 - **Status**: ✅ Complete
 - **Features**:
   - MatterSim availability check at startup
@@ -176,9 +176,9 @@ End
 ## File Structure
 
 ```
-goad_v5.0/
-├── run_goad_v5.py                      # Main launcher
-├── goad_v5/
+goad_v1.0/
+├── run_goad_v1.py                      # Main launcher
+├── goad_v1/
 │   ├── __init__.py
 │   ├── analysis/
 │   │   ├── __init__.py
@@ -219,7 +219,7 @@ goad_v5.0/
 
 ## Conclusion
 
-GOAD v5.0 is **fully implemented** with:
+GOAD v1.0 is **fully implemented** with:
 - ✅ 4-step interactive workflow
 - ✅ Automatic surface type detection
 - ✅ User-configurable layer selection

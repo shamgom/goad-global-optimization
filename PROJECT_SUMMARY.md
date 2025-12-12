@@ -1,8 +1,8 @@
-# GOAD v5.0 - Project Summary
+# GOAD v1.0 - Project Summary
 
 ## Project Overview
 
-**GOAD v5.0** (Global Optimization with ASE Design) is a complete Python-based application for optimizing molecular adsorption configurations on crystal surfaces using a genetic algorithm approach.
+**GOAD v1.0** (Global Optimization with ASE Design) is a complete Python-based application for optimizing molecular adsorption configurations on crystal surfaces using a genetic algorithm approach.
 
 **Total Implementation**: ~3,048 lines of Python code across 16 modules
 
@@ -192,8 +192,8 @@ Complete dependency resolution without circular imports or missing modules.
 pip install ase rdkit matplotlib numpy mattersim
 
 # Run application
-cd /path/to/goad_v5.0
-python3 run_goad_v5.py
+cd /path/to/goad_v1
+python3 run_goad_v1.py
 ```
 
 See `QUICK_START.md` for detailed workflow instructions.
@@ -208,7 +208,7 @@ See `QUICK_START.md` for detailed workflow instructions.
 
 ## Conclusion
 
-GOAD v5.0 represents a complete, production-ready implementation for molecular adsorption optimization. The application successfully combines:
+GOAD v1.0 represents a complete, production-ready implementation for molecular adsorption optimization. The application successfully combines:
 
 - ✅ Scientific accuracy (proper physics with ASE & MatterSim)
 - ✅ User accessibility (intuitive GUI with guided workflow)
